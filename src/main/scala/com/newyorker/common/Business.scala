@@ -1,4 +1,4 @@
-package com.newyorker.common
+package com.kulexample.common
 
 case class Business (
                       address: Option[String],

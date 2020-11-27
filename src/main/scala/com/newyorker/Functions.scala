@@ -1,11 +1,11 @@
-package com.newyorker
+package com.kulexample
 
-import com.newyorker.MainRunner.{spark}
+import com.kulexample.MainRunner.{spark}
 import org.apache.spark.sql.{DataFrame, SaveMode}
 
 object Functions {
   val driver = "org.postgresql.Driver"
-  val url = "jdbc:postgresql://localhost:5432/newyorker"
+  val url = "jdbc:postgresql://localhost:5432/kulexample"
   val user = "docker"
   val password = "docker" // not to be done in production environment
 

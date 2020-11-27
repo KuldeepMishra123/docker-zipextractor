@@ -1,4 +1,4 @@
-package com.newyorker
+package com.kulexample
 
 import org.apache.spark.sql.types.{DoubleType, LongType, StringType, StructField, StructType}
 

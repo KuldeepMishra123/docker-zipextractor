@@ -1,9 +1,9 @@
-package com.newyorker
+package com.kulexample
 
 
 import java.io.{BufferedInputStream, InputStream}
 
-import com.newyorker.MainRunner.spark
+import com.kulexample.MainRunner.spark
 import org.apache.commons.compress.archivers.{ArchiveEntry, ArchiveInputStream, ArchiveStreamFactory}
 import org.apache.commons.compress.compressors.{CompressorInputStream, CompressorStreamFactory}
 import org.apache.commons.io.IOUtils

@@ -1,7 +1,7 @@
-package com.newyorker
+package com.kulexample
 
-import com.newyorker.Functions._
-import com.newyorker.Unpacker.unzipTar
+import com.kulexample.Functions._
+import com.kulexample.Unpacker.unzipTar
 import org.apache.commons.io.FilenameUtils.removeExtension
 import org.apache.hadoop.fs.FileSystem
 import org.apache.spark.sql.SparkSession
@@ -34,7 +34,7 @@ object MainRunner {
         ("1st Argumet", "2nd Argument")
       }
     }
-    // val unzippedPath = "D:/PracticeProjects/newyorker_scripts/yelp_dataset/output/"
+    // val unzippedPath = "D:/PracticeProjects/kulexample_scripts/yelp_dataset/output/"
 
     val fs = FileSystem.get(spark.sparkContext.hadoopConfiguration)
 

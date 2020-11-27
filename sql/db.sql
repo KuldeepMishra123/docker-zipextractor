@@ -15,6 +15,6 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --Setup database
-DROP DATABASE IF EXISTS newyorker;
-CREATE DATABASE newyorker;
-\c newyorker;
+DROP DATABASE IF EXISTS kulexample;
+CREATE DATABASE kulexample;
+\c kulexample;

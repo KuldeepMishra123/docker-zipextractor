@@ -3,7 +3,7 @@ version: '3'
 services:
   postgres:
     image: postgres:9.6
-    container_name: newyorker-postgres
+    container_name: kulexample-postgres
     environment:
       - "TZ=Europe/Amsterdam"
       - "POSTGRES_USER=docker"
